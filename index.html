@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Game.loader.js";
+      var loaderUrl = buildUrl + "/GameGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Game.data",
-        frameworkUrl: buildUrl + "/Game.framework.js",
-        codeUrl: buildUrl + "/Game.wasm",
+        dataUrl: buildUrl + "/GameGL.data",
+        frameworkUrl: buildUrl + "/GameGL.framework.js",
+        codeUrl: buildUrl + "/GameGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project (1)",
@@ -103,8 +103,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1600px";
-        canvas.style.height = "900px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
 
       loadingBar.style.display = "block";
